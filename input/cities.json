@@ -1905,7 +1905,7 @@
     {
         "id": 273,
         "region_number": 4,
-        "name": "Rabat",
+        "name": "Rabat ",
         "region_name": "Rabat-Salé-Kénitra",
         "uniq_id": "city_e87302d1-2f9f-4c42-8299-e25baff26bde"
     },
@@ -2867,6 +2867,166 @@
         "name": "Casablanca Sidi Maarof",
         "region_name": "Casablanca-Settat",
         "uniq_id": "city_1f96ed54-4236-4b66-b6f4-10626eefeb44"
+    },
+    {
+        "id": 410,
+        "region_number": 6,
+        "name": "Casablanca Sidi Maarof",
+        "region_name": "Casablanca-Settat",
+        "uniq_id": "city_1f96ed54-4236-4b66-b6f4-10626eefeb44"
+    },
+    {
+        "id": 411,
+        "region_number": 4,
+        "name": "Rabat Agdal-Ryad",
+        "region_name": "Rabat-Salé-Kénitra",
+        "uniq_id": "city_e87302d1-2f9f-4c42-8299-e25baff26bde"
+    },
+    {
+        "id": 412,
+        "region_number": 4,
+        "name": "Rabat El Youssoufia",
+        "region_name": "Rabat-Salé-Kénitra",
+        "uniq_id": "city_e87302d1-2f9f-4c42-8299-e25baff26bde"
+    },
+    {
+        "id": 413,
+        "region_number": 4,
+        "name": "Rabat Hassan",
+        "region_name": "Rabat-Salé-Kénitra",
+        "uniq_id": "city_e87302d1-2f9f-4c42-8299-e25baff26bde"
+    },
+    {
+        "id": 414,
+        "region_number": 4,
+        "name": "Rabat Souissi",
+        "region_name": "Rabat-Salé-Kénitra",
+        "uniq_id": "city_e87302d1-2f9f-4c42-8299-e25baff26bde"
+    },
+    {
+        "id": 414,
+        "region_number": 4,
+        "name": "Rabat Yacoub El Mansour",
+        "region_name": "Rabat-Salé-Kénitra",
+        "uniq_id": "city_e87302d1-2f9f-4c42-8299-e25baff26bde"
+    },
+    {
+        "id": 415,
+        "region_number": 3,
+        "name": "Fès Agdal",
+        "region_name": "Fès-Meknès",
+        "uniq_id": "city_6678c8e4-2e6c-42cb-8a72-aeb1c73ae8dd"
+    },
+    {
+        "id": 416,
+        "region_number": 3,
+        "name": "Fès Saiss",
+        "region_name": "Fès-Meknès",
+        "uniq_id": "city_6678c8e4-2e6c-42cb-8a72-aeb1c73ae8dd"
+    },
+    {
+        "id": 417,
+        "region_number": 3,
+        "name": "Fès Fès-Médina",
+        "region_name": "Fès-Meknès",
+        "uniq_id": "city_6678c8e4-2e6c-42cb-8a72-aeb1c73ae8dd"
+    },
+    {
+        "id": 418,
+        "region_number": 3,
+        "name": "Fès Fès-Médina",
+        "region_name": "Fès-Meknès",
+        "uniq_id": "city_6678c8e4-2e6c-42cb-8a72-aeb1c73ae8dd"
+    },
+    {
+        "id": 419,
+        "region_number": 3,
+        "name": "Fès Jnan El Ouard",
+        "region_name": "Fès-Meknès",
+        "uniq_id": "city_6678c8e4-2e6c-42cb-8a72-aeb1c73ae8dd"
+    },
+    {
+        "id": 420,
+        "region_number": 3,
+        "name": "Fès El Mariniyine",
+        "region_name": "Fès-Meknès",
+        "uniq_id": "city_6678c8e4-2e6c-42cb-8a72-aeb1c73ae8dd"
+    },
+    {
+        "id": 420,
+        "region_number": 3,
+        "name": "Fès Zouagha",
+        "region_name": "Fès-Meknès",
+        "uniq_id": "city_6678c8e4-2e6c-42cb-8a72-aeb1c73ae8dd"
+    },
+    {
+        "id": 421,
+        "region_number": 1,
+        "name": "Tanger Médina",
+        "region_name": "Tanger-Tétouan-Al Hoceïma",
+        "uniq_id": "city_e0581ac6-7230-4aef-bfa3-fbeef43fd567"
+    },
+    {
+        "id": 422,
+        "region_number": 1,
+        "name": "Tanger BniMakda",
+        "region_name": "Tanger-Tétouan-Al Hoceïma",
+        "uniq_id": "city_e0581ac6-7230-4aef-bfa3-fbeef43fd567"
+    },
+    {
+        "id": 423,
+        "region_number": 1,
+        "name": "Tanger Mghogha",
+        "region_name": "Tanger-Tétouan-Al Hoceïma",
+        "uniq_id": "city_e0581ac6-7230-4aef-bfa3-fbeef43fd567"
+    },
+    {
+        "id": 423,
+        "region_number": 1,
+        "name": "Tanger Souani",
+        "region_name": "Tanger-Tétouan-Al Hoceïma",
+        "uniq_id": "city_e0581ac6-7230-4aef-bfa3-fbeef43fd567"
+    },
+    {
+        "id": 424,
+        "region_number": 7,
+        "name": "Marrakech Marrakech-Médina",
+        "region_name": "Marrakech-Safi",
+        "uniq_id": "city_02f70498-9e2f-491d-88e4-36fe12166a9d"
+    },
+    {
+        "id": 425,
+        "region_number": 7,
+        "name": "Marrakech Ménara",
+        "region_name": "Marrakech-Safi",
+        "uniq_id": "city_02f70498-9e2f-491d-88e4-36fe12166a9d"
+    },
+    {
+        "id": 426,
+        "region_number": 7,
+        "name": "Marrakech Sidi Youssef Ben Ali",
+        "region_name": "Marrakech-Safi",
+        "uniq_id": "city_02f70498-9e2f-491d-88e4-36fe12166a9d"
+    },
+    {
+        "id": 427,
+        "region_number": 7,
+        "name": "Marrakech Sidi Youssef Ben Ali",
+        "region_name": "Marrakech-Safi",
+        "uniq_id": "city_02f70498-9e2f-491d-88e4-36fe12166a9d"
+    },
+    {
+        "id": 428,
+        "region_number": 7,
+        "name": "Marrakech Guéliz",
+        "region_name": "Marrakech-Safi",
+        "uniq_id": "city_02f70498-9e2f-491d-88e4-36fe12166a9d"
+    },
+    {
+        "id": 429,
+        "region_number": 7,
+        "name": "Marrakech Ennakhil",
+        "region_name": "Marrakech-Safi",
+        "uniq_id": "city_02f70498-9e2f-491d-88e4-36fe12166a9d"
     }
-    
 ]
