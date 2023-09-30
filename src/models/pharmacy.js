@@ -6,11 +6,27 @@ const DEFAULT_VALUES = {
     COUNTRY:'Morocco'
 } 
 
+const locationSchema = new mongoose.Schema({
+  type: {
+    type: String,
+    enum: ['Point'],
+    required: true,
+  },
+  coordinates: {
+    type: [Number],
+    required: true,
+  },
+});
+
+
+
 const pharmacySchema = new Schema({
     uuid: { type: String, required: true ,unique:true, sparse: true},
     name:{type:String,required:true,sparse: true},
+    phone: {type:String,required:true,sparse: true},
     longitude:{type:String,required:true,sparse: true},
     latitude:{type:String,required:true,sparse: true},
+    location:{type:locationSchema,require:true},
     address: {type:String,required:true},
     addressDetails: {type:String,required:true,},
     zone:{type:String,required:true,sparse: true},

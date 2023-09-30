@@ -1,21 +1,13 @@
-const Redis = require('redis');
+const Redis = require('ioredis');
 const config = require('../config');
-var isConnectionBind = false;
-var redisConnection = null;
 
-async function init(){
+
+function init(){
     try{
-        if(!isConnectionBind){
-            const redis = new Redis.createClient(config.getRedisConnection());
-            redisConnection = redis;
-            return redis;
-        }else{
-            return redisConnection;
-        }
+        return new Redis();
     }catch(error){
         console.error('Error in redis connection :', error);
         console.error('conection URL :', );
     }
 };
-init();
 module.exports = init;

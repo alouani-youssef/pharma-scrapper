@@ -37,8 +37,10 @@ async function add({name,region,longitude,latitude}){
     if(isAllowToCreate){
         return create({name,region,longitude,latitude})
     }else{
-        throw new Error('Zone Already Created')
+        return 
     }
 };
+
+
 
 module.exports = { add };

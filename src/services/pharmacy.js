@@ -3,12 +3,17 @@ const { nanoid } = require('nanoid');
 const { Pharmacy } = require('../models');
 
 
-async function create({name,region,longitude,latitude,address,addressDetails,zone,zoneID}){
+async function create({name,region,phone,longitude,latitude,address,addressDetails,zone,zoneID}){
     return Pharmacy.create({
         uuid: nanoid(),
         name,
+        phone,
         longitude,
         latitude,
+        location:{
+            type: 'Point',
+            coordinates: [parseFloat(longitude), parseFloat(latitude)]
+        },
         address,
         addressDetails,
         zone,
@@ -36,10 +41,10 @@ async function isZoneCreationPermitted(longitude,latitude){
     }
 };
 
-async function add({name,region,longitude,latitude,address,addressDetails,zone,zoneID}){
+async function add({name,region,phone,longitude,latitude,address,addressDetails,zone,zoneID}){
     const isAllowToCreate = await isZoneCreationPermitted(longitude,latitude);
     if(isAllowToCreate){
-        return create({name,region,longitude,latitude,address,addressDetails,zone,zoneID})
+        return create({name,region,phone,longitude,latitude,address,addressDetails,zone,zoneID})
     }else{
         throw new Error('Zone Already Created')
     }
