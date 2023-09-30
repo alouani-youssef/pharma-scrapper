@@ -19,12 +19,14 @@
     "express": "^4.18.2",
     "http-errors": "~1.6.3",
     "jsonfile": "^6.1.0",
+    "jsonstream": "^1.0.3",
     "loadash": "^1.0.0",
     "mongoose": "^7.5.3",
     "morgan": "~1.9.1",
     "nanoid": "^5.0.1",
     "nodemon": "^3.0.1",
     "redis": "^4.6.10",
+    "stream-json": "^1.8.0",
     "winston": "^3.10.0"
   }
 }
