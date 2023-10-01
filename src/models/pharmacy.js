@@ -31,7 +31,7 @@ const pharmacySchema = new Schema({
     addressDetails: {type:String,required:true,},
     zone:{type:String,required:true,sparse: true},
     zoneID: { type: Schema.Types.ObjectId, sparse: true,required:true, ref: 'zone'},
-    regoin:{type:String,required:true,sparse: true},
+    region:{type:String,required:true,sparse: true},
     country:{type:String,required:true,sparse: true, default: DEFAULT_VALUES.COUNTRY},
     versin:{type:String,required:true,default: DEFAULT_VALUES.VERSION },
   },

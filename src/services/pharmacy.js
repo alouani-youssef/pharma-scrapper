@@ -25,28 +25,22 @@ async function create({name,region,phone,longitude,latitude,address,addressDetai
 };
 
 
-async function isZoneCreationPermitted(longitude,latitude){
-    const query = { longitude, latitude }
-    const count = await Zone.count(query);
-    if(count===0){
-        return true
-    }
-};
 
-async function isZoneCreationPermitted(longitude,latitude){
+async function isPharmacyCreationPermitted(longitude,latitude){
     const query = { longitude, latitude }
-    const count = await Zone.count(query);
+    const count = await Pharmacy.count(query);
     if(count===0){
         return true
     }
 };
 
 async function add({name,region,phone,longitude,latitude,address,addressDetails,zone,zoneID}){
-    const isAllowToCreate = await isZoneCreationPermitted(longitude,latitude);
+
+    const isAllowToCreate = await isPharmacyCreationPermitted(longitude,latitude);
     if(isAllowToCreate){
         return create({name,region,phone,longitude,latitude,address,addressDetails,zone,zoneID})
     }else{
-        throw new Error('Zone Already Created')
+       return null
     }
 };
 
