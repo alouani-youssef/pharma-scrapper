@@ -25,6 +25,7 @@
     "mongoose": "^7.5.3",
     "morgan": "~1.9.1",
     "nanoid": "3.0.0",
+    "node-html-parser": "^6.1.10",
     "nodemon": "^3.0.1",
     "redis": "^4.6.10",
     "stream-json": "^1.8.0",
