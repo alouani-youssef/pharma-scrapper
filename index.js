@@ -16,7 +16,7 @@ initServer().catch(error => {
   console.error(error);
   process.exit(0);
 });
-storageHandler()
+storageHandler.initWebTabibDrugs();
 process.on('uncaughtException', code => {
   console.error(code)
 })
